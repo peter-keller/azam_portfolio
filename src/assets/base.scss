@@ -1,4 +1,22 @@
+
 $global-font-size: 18px;
 
+
+// Colour tokens
 $color-white: #fff;
 $color-black: #000;
+$color-blue: #0078FF;
+
+
+// Font size tokens
+
+
+
+// Screen size tokens
+$media-query-wide: 1600px;
+$media-query-desktop: 1024px;
+$media-query-tablet: 768px;
+$media-query-mobile: 420px;
+$media-query-mobile-sm: 374px;
+
+@import 'mixins'

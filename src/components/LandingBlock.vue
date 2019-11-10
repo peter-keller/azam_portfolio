@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 export default {
   props: {
     image: {
@@ -22,6 +23,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -38,9 +40,13 @@ export default {
     align-items: center;
 
     h1 {
-      font-size: 64px;
+      font-size: 48px;
       margin: 0;
       color: $color-white;
+
+      @include tablet {
+        font-size: 64px;
+      }
     }
   }
 

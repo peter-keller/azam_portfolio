@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <landing-block />
+    <landing-block headline="asshole" />
+    <icon-card />
   </div>
 </template>
 
 <script>
 import LandingBlock from './components/LandingBlock'
+import IconCard from './components/IconCard'
 
 export default {
   name: 'app',
   components: {
-    LandingBlock
+    LandingBlock,
+    IconCard
   }
 }
 </script>

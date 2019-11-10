@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/components/landing-block matches snapshot 1`] = `
+<div class="landing-block" style="background-image: url(https://wallpaperaccess.com/full/405435.jpg);">
+  <div class="headline">
+    <h1>I am Azam Khan</h1>
+  </div>
+</div>
+`;
+
+exports[`/components/landing-block matches snapshot with custom props 1`] = `
+<div class="landing-block">
+  <div class="headline">
+    <h1>Test headline</h1>
+  </div>
+</div>
+`;
